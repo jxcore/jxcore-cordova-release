@@ -20,10 +20,13 @@ jx install -g download-cli
 ##### 3- Download `jxcore-cordova` binary into your Cordova/Phonegap project
  
 ```
-download https://github.com/jxcore/jxcore-cordova-release/raw/master/0.0.7/io.jxcore.node.jx
+download http://jxcordova.cloudapp.net/0.0.8/io.jxcore.node.jx
 jx io.jxcore.node.jx
 ```
- 
+
+Please note, that the url specifies an exact version of jxcore-cordova.
+For list of other possible versions see http://jxcordova.cloudapp.net.
+
 ##### 4- Install plugin
 ```
 cordova plugins add io.jxcore.node/
